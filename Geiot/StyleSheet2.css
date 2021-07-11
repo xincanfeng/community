@@ -1,0 +1,135 @@
+﻿body {
+    background: rgba(255, 106, 0, 0.70)
+}
+/*タイトル名の設定*/
+div#Title h1 {
+    width: 100px;
+    margin: 0.001em;
+    color: #99cc00;
+}
+/*タイトルイメージの設定*/
+div#Title div {
+    width: auto;
+    height: 100px;
+    background: url("Images/TitleImage.jpg");
+    background-size: auto 100px;
+}
+/*ログインボタンの場所*/
+div#HeaderLogIn_Button {
+    float: right;
+    clear: right;
+}
+
+/*タブ切り替え全体のスタイル*/
+.tabs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/*タブのスタイル*/
+.tab_item {
+    width: calc(100%/3);
+    height: 50px;
+    border-bottom: 3px solid #5ab4bd;
+    background-color: #d9d9d9;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #565656;
+    display: block;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+    /*マウスが置かれているときの処理*/
+    .tab_item:hover {
+        opacity: 0.75;
+    }
+
+/*ラジオボタンを全て消す*/
+input[name="tab_item"] {
+    display: none;
+}
+
+/*タブ切り替えの中身のスタイル*/
+.tab_content {
+    display: none;
+    clear: both;
+    overflow: hidden;
+}
+#request_contents {
+    margin: 0px;
+    padding: 0;
+}
+/*選択されているタブのコンテンツのみを表示*/
+#home:checked ~ #home_content.tab_content,
+#eval:checked ~ #eval_content.tab_content,
+#mealmeating:checked ~ #mealmeating_content.tab_content {
+    display: block;
+}
+
+/*選択されているタブのスタイルを変える*/
+.tabs input:checked + .tab_item {
+    background-color: #5ab4bd;
+    color: #fff;
+}
+/*タブメニューとコンテンツ格納しているdivに幅を与える*/
+div.tab_content {
+    padding: 20px 20px;
+}
+
+input#menu_name {
+    margin: 0 auto;
+    width: 80%;
+    height: 25px;
+    font-size: 25px
+}
+
+input.Ingredients_text {
+    width: auto;
+    height: 15px;
+    font-size: 15px;
+    margin: 5px 5px;
+}
+
+textarea#eval_textarea {
+    resize: none;
+    width: 80%;
+    height: 250px;
+}
+
+input#find_bar {
+    width: 80%;
+}
+
+#calender {
+    display: block;
+    margin: 0 auto;
+}
+div.request_recipis {
+    border:double;
+    margin: 5px 0px;
+}
+
+.request_recipis p {
+    clear: left;
+    font-size: 20px;
+    margin:10px;
+}
+li.fav_ingredeints_list {
+    float: left;
+    margin-right: 10px;
+    padding-left:2px;
+    margin-bottom:25px;
+    list-style:none;
+}
+textarea.contents_textarea {
+    resize: none;
+    width: 80%;
+    height: 250px;
+    margin: 10px;
+}
+

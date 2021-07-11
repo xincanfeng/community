@@ -1,0 +1,40 @@
+﻿{
+    "request_recipi": {
+        "rr123456": {
+            "userID": "123456",
+            "recipi": "痩せるレシピ",
+            "fav_ingredeints": [
+                "人参",
+                "人参",
+                "人参",
+                "人参",
+                "人参",
+                "人参",
+                "人参"
+            ],
+            "information": "太っている為、痩せる為のレシピが欲しい"
+
+        },
+        "rr123457": {
+            "userID": "123457",
+            "recipi": "楽しめるレシピ",
+            "fav_ingredeints": [
+                "カボチャ",
+                "チョコ",
+                "マングース"
+            ],
+            "information": "AAAAAki0ooi0o0o0oo0o0o0o0o0o0o0o0o0o0o0oSSSSSSSSSSLLLLLLLLLLLLSALSLASLASLASLSLSLASLALSAASKJSKJSKJSKJSKJKASJKJSJAJSKAJSKJAKSJKJKSJKJSAKJKASJKJSAJKSJKJSIIDIAXAJJDIJXJIAJDSIJXIJAIJIXHXAHJHJDJADJJKJDKJKAJKJKJKSAJSJJDJJA"
+
+        },
+        "rr123458": {
+            "userID": "123458",
+            "recipi": "簡単に早く作れるレシピ",
+            "fav_ingredeints": [
+                "麺類",
+                "醤油"
+            ],
+            "information": "AAAAAki0ooi0o0o0oo0o0o0o0o0o0o0o0o0o0o0oSSSSSSSSSSLLLLLLLLLLLLSALSLASLASLASllLSLSLASLALSAASKJSKJSKJSKJSKJKASJKJSJAJSKAJSKJAKSJKJKSJKJSAKJKASJKJSAJKSJKJSIIDIAXAJJDIJXJIAJDSIJXIJAIJIXHXAHJHJDJADJJKJDKJKAJKJKJKSAJSJJDJJA"
+
+        }
+    }
+}

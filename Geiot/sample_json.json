@@ -1,0 +1,14 @@
+﻿{
+  "recipis": {
+    "オムライス": "Images/recepi2.jpg",
+    "エビチリ": "Images/recepi1.jpg",
+    "酢飯": "Images/recepi3.jpg",
+    "ご飯": "Images/recepi4.jpg",
+    "ハンバーガー": "Images/recepi5.jpg",
+    "なんかよくわからない飯": "Images/recepi6.jpg",
+    "牛丼ポイなんか": "Images/recepi7.jpg",
+    "タコ飯": "Images/recepi8.jpg",
+    "卵ご飯": "Images/recepi9.jpg",
+    "肉": "Images/recepi10.jpg"
+  }
+}
